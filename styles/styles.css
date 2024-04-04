@@ -1,32 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,200;1,200&family=Dancing+Script:wght@400..700&family=Teko:wght@300. .700&display=intercambio')
-
-.titulo1{
+.titulo1 {
     background-color: chartreuse;
     font-size: 2rem;
     color: fuchsia;
     justify-content: center;
     font-family: "Bitter", cursive;
 }
-.titulo2{
+
+.titulo2 {
     font-family: "Dancing Script", cursive;
     color: blue;
 }
-.titulo3{
+
+.titulo3 {
     font-family: "Teko", sans-serif;
 }
-.contenedor{
+
+.contenedor {
     display: flex;
     justify-content: center;
 }
-button{
+
+button {
     background-color: transparent;
     color: azure;
     font-family: "Dancing Script", cursive;
 }
-button:hover{
+
+button:hover {
     background-color: black;
 }
-body{
+
+body {
     background-color: #85FFBD;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 50%, #ffffff 100%);
     display: flex;
@@ -34,29 +38,36 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.table{
+
+.table {
     border-collapse: collapse;
 }
-.table td{
+
+.table td {
     border: 1px solid;
     text-align: center;
 }
-.table th{
+
+.table th {
     background-color: green;
     color: white;
 }
-.table td:hover{
+
+.table td:hover {
     background-color: lightseagreen;
     color: white;
 }
-.table th:hover{
+
+.table th:hover {
     background-color: lightyellow;
     color: rgb(236, 11, 206);
 }
-.td{
-    font-weight:bold;
+
+.td {
+    font-weight: bold;
 }
-caption{
+
+caption {
     font-family: "Dancing Script", cursive;
     font-size: 20px;
 }
