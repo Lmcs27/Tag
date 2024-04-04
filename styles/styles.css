@@ -2,12 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Bitter", cursive;
 }
 
 html,
 body {
     width: 100%;
-    height: 100%;
+    height: 100svh;
+    overflow-y: auto;
 }
 
 .titulo1 {
@@ -44,17 +46,11 @@ button:hover {
 }
 
 body {
-    width: 100;
-    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-color: #85FFBD;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 50%, #ffffff 100%);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
 }
 
 .table {
@@ -107,4 +103,19 @@ caption {
     cursor: pointer;
     transform: scale(1.02);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+main {
+    width: 100%;
+    height: 100svh;
+    overflow-y: auto;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+hr {
+    margin: 12px 0;
 }
